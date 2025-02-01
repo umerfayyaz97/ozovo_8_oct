@@ -17,7 +17,7 @@ export default function Section4() {
   return (
     <div className="bg-slate min-h-screen p-10">
       <main className="flex flex-col items-center">
-        <h1 className="text-3xl font-bold text-gray-900 mb-10">
+        <h1 className="text-3xl text-center sm:text-left sm:pl-6 font-bold  text-gray-900 mb-10">
           How To Set Up Your Fleet
         </h1>
 
@@ -34,7 +34,7 @@ export default function Section4() {
             {steps.map((step, index) => (
               <div key={index} className="flex items-center space-x-4">
                 <div className="bg-customYellow w-10 h-10 rounded-full flex items-center justify-center">
-                  <span className="text-xl font-bold text-white">
+                  <span className="text-xl font-bold text-black">
                     {index + 1}
                   </span>
                 </div>

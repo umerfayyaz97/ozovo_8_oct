@@ -10,14 +10,16 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-graish text-white z-50 font-medium fixed top-0 w-full ">
+    <nav className="bg-zify text-white z-50 font-medium fixed top-0 w-full ">
       <div className="flex items-center justify-between w-full lg:px-14 px-4">
         <div className="z-50 p-5  w-full flex justify-between">
           <Link href={"/"}>
             <Image
-              src={Logo}
+              src="/logo/zify_logo.png"
               alt="logo"
-              className="md:cursor-pointer h-9 w-[140px]"
+              width={100}
+              height={54}
+              className="md:cursor-pointer "
             />
           </Link>
           <div className="text-3xl md:hidden">
@@ -43,22 +45,22 @@ const Navbar = () => {
           </li>
           <div>
             <Link
-              href={"/contact"}
-              className="py-2 px-3 w-[80px] text-center inline-block border border-white rounded-full text-white"
+              href="/contact"
+              className="py-2 px-3 w-[80px] text-center inline-block  border-white rounded-full text-white bg-blue-900 hover:bg-white hover:text-black transition-colors duration-300 ease-in-out"
             >
               Login
             </Link>
           </div>
           <Link
-            href={"/contact"}
-            className="py-2 w-[80px] inline-block bg-customYellow  text-black rounded-full text-center"
+            href="/contact"
+            className="py-2 w-[80px] inline-block bg-white text-black rounded-full text-center hover:bg-customYellow transition-colors duration-300 ease-in-out"
           >
             Sign Up
           </Link>
         </ul>
         <div className="md:block hidden">{/* <Button /> */}</div>
         <ul
-          className={`md:hidden bg-graish text-white font-semibold z-20 fixed w-full top-0 bottom-0 py-24 pl-4 duration-500 ${
+          className={`md:hidden bg-zify text-white font-semibold z-20 fixed w-full top-0 bottom-0 py-24 pl-4 duration-500 ${
             open ? "left-0" : "left-[-100%]"
           }`}
         >

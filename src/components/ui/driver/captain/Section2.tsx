@@ -11,14 +11,14 @@ const Section2 = () => {
   return (
     <div className="py-10 px-4 lg:px-8 xl:mx-28">
       <div className="flex flex-col items-center">
-        <div className="bg-customYellow text-graish p-6 rounded-lg shadow-lg w-full  text-center lg:text-left">
-          <h3 className="text-xl font-bold mb-4">
+        <div className="bg-zify text-white p-6 rounded-lg shadow-lg w-full  text-center lg:text-left">
+          <h3 className="text-3xl font-bold mb-4">
             The Freedom To Work And Earn In <br /> Your Own Time.
           </h3>
         </div>
         <div className="flex flex-col lg:flex-row justify-center items-center gap-2 py-4">
           <div className="flex flex-col gap-2 w-full lg:w-1/3">
-            <div className="bg-graish flex flex-row text-white p-6 rounded-lg shadow-lg h-[200px]">
+            <div className="bg-zify flex flex-row text-white p-6 rounded-lg shadow-lg h-[200px]">
               <div>
                 <h3 className="text-2xl  font-bold mb-4 text-customYellow">
                   Maximize Your Earnings
@@ -32,8 +32,8 @@ const Section2 = () => {
                 src={p1}
                 alt="Maximize Your Earnings"
                 className="lg:ml-4 "
-                width={80}
-                height={80}
+                width={100}
+                height={100}
               />
             </div>
             <div className="bg-customYellow flex flex-row text-black p-6 rounded-lg shadow-lg h-[200px]">
@@ -50,8 +50,8 @@ const Section2 = () => {
                 src={p2}
                 alt="Embrace Entrepreneurship"
                 className="mt-4  lg:ml-4 "
-                width={80}
-                height={80}
+                width={100}
+                height={100}
               />
             </div>
           </div>
@@ -77,11 +77,11 @@ const Section2 = () => {
                 src={p4}
                 alt="Enjoy Unparalleled Flexibility"
                 className="mt-4  lg:ml-4 "
-                width={80}
-                height={80}
+                width={100}
+                height={100}
               />
             </div>
-            <div className="bg-graish flex flex-row text-white p-6 rounded-lg shadow-lg h-[200px]">
+            <div className="bg-zify flex flex-row text-white p-6 rounded-lg shadow-lg h-[200px]">
               <div>
                 <h3 className="text-xl font-bold mb-4 text-customYellow">
                   Experience Swift Payouts
@@ -95,8 +95,8 @@ const Section2 = () => {
                 src={p5}
                 alt="Experience Swift Payouts"
                 className="mt-4  lg:ml-4 w-[80px] h-[130px]"
-                width={80}
-                height={80}
+                width={100}
+                height={100}
               />
             </div>
           </div>

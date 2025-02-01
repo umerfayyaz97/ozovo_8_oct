@@ -13,10 +13,10 @@ const Section2 = () => {
             What we <span className="text-white">offer</span>
           </h3>
           <p>
-            Empower your fleet operations with OZ Ove’s advanced Fleet
-            Management Dashboard. Our platform provides robust infrastructure,
-            technology and access to a comprehensive driver network, designed to
-            optimize your business efficiency and profitability.
+            Empower your fleet operations with Zify’s advanced Fleet Management
+            Dashboard. Our platform provides robust infrastructure, technology
+            and access to a comprehensive driver network, designed to optimize
+            your business efficiency and profitability.
           </p>
         </div>
         <div className=" justify-center ">
@@ -39,7 +39,7 @@ const Section2 = () => {
                 className="mt-2 lg:mt-0"
               />
             </div>
-            <div className="bg-graish flex lg:w-5/12 flex-col lg:flex-row items-center text-customYellow p-6 rounded-lg shadow-lg ">
+            <div className="bg-zify flex lg:w-5/12 flex-col lg:flex-row items-center text-customYellow p-6 rounded-lg shadow-lg ">
               <div className="flex-1 lg:mr-4">
                 <h3 className="text-xl sm:text-2xl font-bold mb-4">
                   Management Dashboard
@@ -60,7 +60,7 @@ const Section2 = () => {
             </div>
           </div>
           <div className="flex gap-x-2 py-2">
-            <div className="bg-graish lg:w-5/12 flex flex-col lg:flex-row items-center text-customYellow p-6 rounded-lg shadow-lg">
+            <div className="bg-zify lg:w-5/12 flex flex-col lg:flex-row items-center text-customYellow p-6 rounded-lg shadow-lg">
               <div className="flex-1 lg:mr-4">
                 <h3 className="text-xl sm:text-2xl font-bold mb-4">
                   Instant Withdrawals
@@ -75,7 +75,7 @@ const Section2 = () => {
                 alt="Instant Withdrawals"
                 width={100}
                 height={50}
-                className="mt-4 lg:mt-0"
+                className="mt-4 lg:mt-0 h-30 w-30"
               />
             </div>
             <div className="bg-customYellow lg:w-7/12 flex flex-col lg:flex-row items-center text-black p-6 rounded-lg shadow-lg ">
@@ -84,8 +84,8 @@ const Section2 = () => {
                   Driver Network
                 </h3>
                 <p className="text-sm">
-                  Empower your fleet operations with OZ Ove&apos;s advanced
-                  Fleet Management Dashboard. Our platform provides robust
+                  Empower your fleet operations with Zify&apos;s advanced Fleet
+                  Management Dashboard. Our platform provides robust
                   infrastructure,
                   <span className="lg:block hidden">
                     technology and access to a comprehensive driver network,
@@ -99,7 +99,7 @@ const Section2 = () => {
                 alt="Driver Network"
                 width={100}
                 height={40}
-                className="mt-2 lg:mt-0"
+                className="mt-2 lg:mt-0 "
               />
             </div>
           </div>
